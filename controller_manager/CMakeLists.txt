@@ -99,6 +99,10 @@ ament_export_include_directories(
 )
 ament_export_dependencies(
   class_loader
+  controller_interface
+  hardware_interface
+  rclcpp
+  rcpputils
 )
 ament_package(
   CONFIG_EXTRAS cmake/controller_manager_register_controller.cmake
